@@ -1,0 +1,27 @@
+public class sqrtcube {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("\tNumber \tSquare \tCube");
+        for (int a=0; a<=10; a++)
+        {
+            int b=a*a;
+            int c=a*a*a;                    
+            System.out.println(" \t" +a+ " \t" +b+ " \t"+c);
+    
+        }
+    }
+}
+
+Output:
+	Number 	Square 	Cube
+ 	0       	0 	    0
+ 	1 	      1 	    1
+ 	2 	      4     	8
+ 	3 	      9     	27
+ 	4 	      16     	64
+ 	5 	      25 	    125
+ 	6 	      36    	216
+ 	7 	      49    	343
+ 	8 	      64    	512
+ 	9 	      81    	729
+ 	10 	      100   	1000
