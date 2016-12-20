@@ -1,0 +1,21 @@
+public class Practice {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    //Write an application that asks the user to enter two integers, obtains them from the user and prints their sum, product, difference and quotient (division).
+    System.out.print("Input Number 1 = ");
+    int num1= input.nextInt();
+    System.out.print("Input Number 2 = ");
+    int num2 = input.nextInt();
+    int sum = num1+num2;
+    System.out.println("Sum of the 2 numbers is = " +sum);
+    int prod = num1*num2;
+    System.out.println("Product of the 2 numbers is = " +prod);
+    int diff = num1-num2;
+    System.out.println("Difference of the 2 numbers is = " +diff);
+    int div= num1/num2;
+    System.out.println("Division of the 2 numbers is = " +div);    
+    }
+}
