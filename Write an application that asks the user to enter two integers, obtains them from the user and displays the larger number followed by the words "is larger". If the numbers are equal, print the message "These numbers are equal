@@ -1,0 +1,18 @@
+public class Practice {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    //(Comparing Integers) Write an application that asks the user to enter two integers, obtains them from the user and displays the larger number followed by the words "is larger". If the numbers are equal, print the message "These numbers are equal". Use the techniques shown in Fig. 2.15.
+    System.out.print("Input first number = ");
+    int num1= input.nextInt();
+    System.out.print("Input second number = ");
+    int num2 = input.nextInt();
+    if (num1 == num2)
+    System.out.println("These numbers are equal");
+    if (num1 > num2 || num1<num2)
+    System.out.println("is larger");
+
+    }
+}
