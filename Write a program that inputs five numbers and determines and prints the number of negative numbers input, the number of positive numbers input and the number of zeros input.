@@ -1,0 +1,69 @@
+package negposzero;
+import java.util.Scanner;
+public class Negposzero {
+    public static void main(String[] args) {
+    Scanner input = new Scanner (System.in);
+        int posnum = 0; //variable to count how many positive numbers initialized to zero
+        int negnum = 0; //variable to count how many positive numbers initialized to zero
+        int zero = 0; //variable to count how many positive numbers initialized to zero
+        
+        System.out.print("Enter 1st number = ");
+        int num1= input.nextInt();
+        if (num1>0)
+            posnum = posnum+1;
+        if (num1<0)
+            negnum = negnum+1;
+        if (num1==0)
+            zero = zero+1;
+        
+        System.out.print("Enter 2nd number = ");
+        int num2 = input.nextInt();
+        if (num2>0)
+            posnum = posnum+1;
+        if (num2<0)
+            negnum = negnum+1;
+        if (num2==0)
+            zero = zero+1;
+        
+        System.out.print("Enter 3rd number = ");
+        int num3 = input.nextInt();
+        if (num3>0)
+            posnum = posnum+1;
+        if (num3<0)
+            negnum = negnum+1;
+        if (num3==0)
+            zero = zero+1;
+        
+        System.out.print("Enter 4th number = ");
+        int num4 = input.nextInt();
+        if (num4>0)
+            posnum = posnum+1;
+        if (num4<0)
+            negnum = negnum+1;
+        if (num4==0)
+            zero = zero+1;
+        
+        System.out.print("Enter 5th number = ");
+        int num5 = input.nextInt();
+        if (num5>0)
+            posnum = posnum+1;
+        if (num5<0)
+            negnum = negnum+1;
+        if (num5==0)
+            zero = zero+1;
+        
+        System.out.println("Negative numbers are = " +negnum);
+        System.out.println("Positive numbers are = " +posnum);        
+        System.out.println("Zeros are = " +zero); 
+
+    }
+}
+run:
+Enter 1st number = 0
+Enter 2nd number = -9
+Enter 3rd number = 9
+Enter 4th number = -9
+Enter 5th number = 9
+Negative numbers are = 2
+Positive numbers are = 2
+Zeros are = 1
